@@ -15,6 +15,5 @@ const closeBtn = document.querySelector('.close-btn');
 
 modalBtn.addEventListener('click', () => {
     // controllo il bottone per aprire la modale
-    // modalOverlay.classList.remove('modal-overlay');
     modalOverlay.classList.add('open-modal');
 });
