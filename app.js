@@ -10,3 +10,11 @@ const modalBtn = document.querySelector('.modal-btn');
 const modalOverlay = document.querySelector('.modal-overlay');
 
 const closeBtn = document.querySelector('.close-btn');
+
+// aggancio un ascoltatore di eventi al pulsante della modale
+
+modalBtn.addEventListener('click', () => {
+    // controllo il bottone per aprire la modale
+    // modalOverlay.classList.remove('modal-overlay');
+    modalOverlay.classList.add('open-modal');
+});
