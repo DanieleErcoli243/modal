@@ -17,3 +17,9 @@ modalBtn.addEventListener('click', () => {
     // controllo il bottone per aprire la modale
     modalOverlay.classList.add('open-modal');
 });
+
+// aggancio un ascoltatore di eventi al pulsante per la chiusura della modale
+
+closeBtn.addEventListener('click', () => {
+    modalOverlay.classList.remove('open-modal');
+});
